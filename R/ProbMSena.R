@@ -12,7 +12,7 @@
 #'
 #'y the amount number of hits
 #'
-#'
+#' eu sou debora
 #' @param x number
 #' @param y number
 #'
