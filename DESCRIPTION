@@ -1,0 +1,17 @@
+Package: Lotto
+Title: Lottery games probability
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Débora",
+           family = "Farias",
+           role = c("aut", "cre"),
+           email = "deborafarias297@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Lottery is a form of gambling based on random drawing. There are many versions,
+             but the principle is always this: you bet on something (usually numbers)
+             and whoever is drawn wins the prize.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
