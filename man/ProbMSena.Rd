@@ -20,13 +20,13 @@ the draw consists of the extraction of 6 different numbers, in the universe from
 In that game, winners of 4,5 or 6 numbers win prizes.
 }
 \details{
-warning message if the y (number of hits) is greater than 6, "Prob = 0, the maximum number
+Warning message if the y (number of hits) is greater than 6, "Prob = 0, the maximum number
 of hits is 6". However if y <= 3, notice that there is no such probability.
 Otherwise, notice that the bettor has won.
 
-x the amount of numbers bet
+x is the amount of numbers bet
 
-y the amount number of hits
+y is the amount number of hits
 }
 \examples{
 ProbMSena(6,9)

@@ -25,9 +25,9 @@ warning message if y (number of hits) is greater than 5, "Prob = 0, the maximum 
 of hits is 5". However, if y <2, note that this probability does not exist.
 Otherwise note that the player has won.
 
-x the amount of numbers bet
+x is the amount of numbers bet
 
-y the number of hits
+y is the number of hits
 }
 \examples{
 ProbQuina(6,7)

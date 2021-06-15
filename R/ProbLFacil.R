@@ -1,4 +1,4 @@
-#' Loto Facil lottery game probability
+#' Lotofacil lottery game probability
 #'
 #'The player simply chooses and dials between 15 and 20 numbers, among the 25 available,
 #'the draw consists of extracting 15 different numbers, in the universe from 1 to 25. In this game,
@@ -8,9 +8,9 @@
 #'of hits is 15". However if y < 11, notice that there is no such probability.
 #'Otherwise, notice that the bettor has won.
 #'
-#'x the amount of numbers bet
+#'x is the amount of numbers bet
 #'
-#'y the amount number of hits
+#'y is the amount number of hits
 #'
 #' @param x number
 #' @param y number
@@ -18,7 +18,7 @@
 #' @return number
 #' @export
 #'
-#' @examples ProbLFacil(15,10)
+#' @examples ProbLFacil(15,11)
 
 
 
@@ -27,16 +27,16 @@ ProbLFacil = function(x,y){
 
   if(y>15){
     prob = 0
-    message("The maximum number of correct answers is 15")
+    message("The maximum number of correct answers is fifteen")
   }
 
   else if (y<11){
-    message("There is no such probability of hits at LotoFacil")
+    stop("There is no such probability of hits at Lotofacil")
 
   }
 
   else
-    message("You won in LotoFacil")
+    message("You won in Lotofacil")
 
   return(prob)
 }

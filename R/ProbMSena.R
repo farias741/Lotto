@@ -4,13 +4,13 @@
 #'the draw consists of the extraction of 6 different numbers, in the universe from 1 to 60.
 #'In that game, winners of 4,5 or 6 numbers win prizes.
 #'
-#'warning message if the y (number of hits) is greater than 6, "Prob = 0, the maximum number
+#'Warning message if the y (number of hits) is greater than 6, "Prob = 0, the maximum number
 #'of hits is 6". However if y <= 3, notice that there is no such probability.
 #'Otherwise, notice that the bettor has won.
 #'
-#'x the amount of numbers bet
+#'x is the amount of numbers bet
 #'
-#'y the amount number of hits
+#'y is the amount number of hits
 #'
 #'
 #' @param x number
@@ -29,15 +29,15 @@ ProbMSena = function(x,y){
 
   if(y>6){
     prob = 0
-    message("The maximum number of correct answers is 6")
+    message("The maximum number of correct answers is six")
   }
 
   else if (y<=3){
-    message("There is no such probability of hits at MegaSena")
+    stop("There is no such probability of hits at Mega Sena")
   }
 
   else
-    message("You won in MegaSena")
+    message("You won in Mega Sena")
 
 
   return(prob)

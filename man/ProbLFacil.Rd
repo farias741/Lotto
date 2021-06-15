@@ -2,7 +2,7 @@
 % Please edit documentation in R/ProbLFacil.R
 \name{ProbLFacil}
 \alias{ProbLFacil}
-\title{Loto Facil lottery game probability}
+\title{Lotofacil lottery game probability}
 \usage{
 ProbLFacil(x, y)
 }
@@ -23,10 +23,10 @@ the prizes are awarded to the winners of 11, 12, 13, 14 or 15 numbers.
 of hits is 15". However if y < 11, notice that there is no such probability.
 Otherwise, notice that the bettor has won.
 
-x the amount of numbers bet
+x is the amount of numbers bet
 
-y the amount number of hits
+y is the amount number of hits
 }
 \examples{
-ProbLFacil(15,10)
+ProbLFacil(15,11)
 }

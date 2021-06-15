@@ -2,7 +2,7 @@
 % Please edit documentation in R/ProbLMania.R
 \name{ProbLMania}
 \alias{ProbLMania}
-\title{LotoMania lottery game probability}
+\title{Lotomania lottery game probability}
 \usage{
 ProbLMania(x, y)
 }
@@ -21,9 +21,9 @@ In this game, winners of 20, 19, 18, 17, 16, 15 or those who do not match
 any number win prizes.
 }
 \details{
-x the amount of numbers bet
+x is the amount of numbers bet
 
-y the amount number of hits
+y is the amount number of hits
 }
 \examples{
 ProbLMania(50,20)
