@@ -10,7 +10,7 @@
 #'
 #'x is the amount of numbers bet
 #'
-#'y is the amount number of hits
+#'y is  the amount number of hits
 #'
 #'
 #' @param x number
