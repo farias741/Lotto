@@ -6,7 +6,7 @@
 #'Warning message if y (number of hits) is greater than 7, "Prob = 0, the maximum number
 #'of hits is 7". However, if y <3, note that this probability does not exist.
 #'Otherwise note that the player has won.
-#'d
+#'
 #'x is the amount of numbers bet
 #'
 #'y is the amount number of hits
