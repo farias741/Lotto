@@ -26,7 +26,7 @@ Otherwise, notice that the bettor has won.
 
 x is the amount of numbers bet
 
-y is  the amount number of hits
+y is the amount number of hits
 }
 \examples{
 ProbMSena(6,9)

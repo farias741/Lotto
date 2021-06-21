@@ -10,7 +10,7 @@
 #'
 #'x is the amount of numbers bet
 #'
-#'y is  the amount number of hits
+#'y is the amount number of hits
 #'
 #'
 #' @param x number
@@ -37,7 +37,14 @@ ProbMSena = function(x,y){
   }
 
   else
-    message("You won in Mega Sena")
+    if(y==3)
+      message("Congratulations. You got the right terno!")
+    if(y==4)
+      message("Congratulations. You got the right quadra!")
+    if(y==5)
+      message("Congratulations. You got the right quina!")
+    if(y==6)
+      message("Congratulations. You are Mega Sena champion!")
 
 
   return(prob)
