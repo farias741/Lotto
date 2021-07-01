@@ -7,7 +7,7 @@
 #'of hits is 7". However, if y <4, note that this probability does not exist.
 #'Otherwise note that the player has won.
 #'
-#'x is the amount of numbers bet message
+#'x is the amount of numbers bet
 #'
 #'y is the amount number of hits
 #'
