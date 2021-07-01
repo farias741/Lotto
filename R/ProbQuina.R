@@ -36,8 +36,14 @@ ProbQuina = function(x,y){
   }
 
   else
-    message("You won in Quina")
-
+    if(y==2)
+      message("Congratulations. You got the right duque!")
+    if(y==3)
+      message("Congratulations. You got the right terno!")
+    if(y==4)
+      message("Congratulations. You got the right quadra!")
+    if(y==5)
+      message("Congratulations. You are Quina champion!")
 
 
   return(prob)
