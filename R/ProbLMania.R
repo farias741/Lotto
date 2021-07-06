@@ -27,7 +27,7 @@ ProbLMania = function(x,y){
     message("The maximum number of correct answers is twenty")
   }
 
-  else if (y<15){
+  else if (y>=1 & y<15){
     stop("There is no such probability of hits at Lotomania")
 
   }
