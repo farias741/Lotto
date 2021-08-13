@@ -10,7 +10,7 @@
 #'y is the amount number of hits
 #'
 #'
-#' @param x numbe
+#' @param x number
 #' @param y number
 #'
 #' @return number
