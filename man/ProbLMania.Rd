@@ -7,7 +7,7 @@
 ProbLMania(x, y)
 }
 \arguments{
-\item{x}{number}
+\item{x}{numbe}
 
 \item{y}{number}
 }
