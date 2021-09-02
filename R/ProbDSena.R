@@ -9,7 +9,7 @@
 #' However, as there are two draws, the player has two chances out of approximately 16 million.
 #' 2/15890700 = 1/7945350, to win any of the SENAS, the player has approximately 1 chance in 8 million.
 #'
-#'x is the amount of numbers betz
+#'x is the amount of numbers bet
 #'
 #'y is the amount number of hits
 #'
