@@ -21,9 +21,9 @@ consists of extracting 6 different numbers, you can win by hitting 3, 4, 5 or
 }
 \details{
 To choose 6 numbers, the bet is simple, where it offers the lowest odds
-win: combination of 50 numbers taken from 6 to 6 = 50!/6!44! = 15,890,700
+win: combination of 50 numbers taken from 6 to 6 = 50!/6!44! = 15890700
 However, as there are two draws, the player has two chances out of approximately 16 million.
-2/15,890,700 = 1/7945,350, to win any of the SENAS, the player has approximately 1 chance in 8 million.
+2/15890700 = 1/7945350, to win any of the SENAS, the player has approximately 1 chance in 8 million.
 
 x is the amount of numbers bet
 
